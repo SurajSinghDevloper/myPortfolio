@@ -8,8 +8,6 @@ import Eggle from "../../Assets/Projects/E-ggle.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Horti from "../../Assets/Projects/Horti.png";
 
-
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -33,11 +31,30 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://github.com/SurajSinghDevloper/User/blob/master/Naac.jpeg?raw=true"
+              isBlog={false}
+              title="NAAC For HEI"
+              description="This is an E-Commerce Project. Techonologies used in React-js, Node-js, Express, MongoDb and for payment I had used Razorpay gateway."
+              link="https://github.com/SurajSinghDevloper/NaacServer.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://github.com/SurajSinghDevloper/User/blob/master/Bpsc.jpeg?raw=true"
+              isBlog={false}
+              title="BPSC PORTAL"
+              description="This project made for Demostration. Technologies Used in are Spring-Boot, PSQL, React-js, Tailwind, Razorpay"
+              link="https://github.com/SurajSinghDevloper/bpsc_Dummy_Server.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={LMS}
               isBlog={false}
               title="LMS"
               description="LMS Elearn platform, Mainly focused on the Authentication using passport.js and more tools"
-              link="https://github.com/vmmuthu31/LMS"
+              link="https://github.com/SurajSinghDevloper/LMS.git"
             />
           </Col>
 
@@ -47,7 +64,7 @@ function Projects() {
               isBlog={false}
               title="HortiPedia"
               description="Hortipedia is a question and answer website for professional and developing farmers."
-              link="https://github.com/E-ggle/HortiPedia"
+              link="https://github.com/SurajSinghDevloper/HortiPedia.git"
             />
           </Col>
 
@@ -57,7 +74,7 @@ function Projects() {
               isBlog={false}
               title="Twitter in Web3"
               description="Nextjs is used for frontend, solidity is for implementation of smart contracts, sanity.i.o is used to manage the text and images."
-              link="https://github.com/vmmuthu31/Twitter-using-web3-and-blockchain"
+              link="https://github.com/SurajSinghDevloper/Twitter-using-web3-and-blockchain.git"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -66,7 +83,7 @@ function Projects() {
               isBlog={false}
               title="Dynamic Portfolio"
               description="It is Portfolio website where the developers can modify it according to the user needs."
-              link="https://vm-portfolio3.netlify.app"
+              link="https://github.com/SurajSinghDevloper/myPortfolio.git"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -75,10 +92,9 @@ function Projects() {
               isBlog={false}
               title="Project Management System"
               description="It was built in MERN stack by using the GraphQL for the API call. It was an Dynamic Application where the user can Create/Read/Update/Delete the content."
-              link="https://github.com/vmmuthu31/Project-Management-System"
+              link="https://github.com/SurajSinghDevloper/Project-Management-System.git"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
