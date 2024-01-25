@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://www.linkedin.com/in/vmmuthu31/" target="_blank">Vairamuthu</a>
+  <a href="https://www.linkedin.com/in/vmmuthu31/" target="_blank">Suraj Kumar</a>
   <p>The dynamic personal portfolio for the software developers built in the reactjs. This Web Application consists of my projects, certifications, resume and about page.</p>
 </h2>
 
@@ -12,7 +12,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [vmmuthu31](https://github.com/vmmuthu31). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [SurajSinghDevloper](https://github.com/SurajSinghDevlope). Thanks!
 
 ## Built With
 
