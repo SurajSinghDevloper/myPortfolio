@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import LMS from "../../Assets/Projects/LMS.jpeg";
-
-import Eggle from "../../Assets/Projects/E-ggle.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Horti from "../../Assets/Projects/Horti.png";
 
