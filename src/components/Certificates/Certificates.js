@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Certicards from "./Certicards";
 import Particle from "../Particle";
 import intern from "../../Assets/intern.jpg";
-import internship from "../../Assets/../Assets/Certificates/internship.pdf";
 import javaimg from "../../Assets/../Assets/Certificates/java_certification.jpg";
 import javacer from "../../Assets/../Assets/Certificates/java_certification.jpg";
 import mysqlcer from "../../Assets/../Assets/Certificates/mysql.jpg";
@@ -27,7 +26,7 @@ function Certificates() {
               isBlog={false}
               title="Internship Certificate"
               description="Successfully completed Software Developer Internship in the Nexthoughts Company."
-              link={internship}
+              link={intern}
             />
           </Col>
 
