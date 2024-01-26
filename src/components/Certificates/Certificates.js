@@ -9,7 +9,6 @@ import javacer from "../../Assets/../Assets/Certificates/java_certification.jpg"
 import mysqlcer from "../../Assets/../Assets/Certificates/mysql.jpg";
 import mysqlimg from "../../Assets/../Assets/Certificates/mysql.jpg";
 
-
 function Certificates() {
   return (
     <Container fluid className="project-section">
